@@ -3,7 +3,7 @@
 Team notebooks for a Kaggle competition on crop disease prediction from Sentinel-2 imagery,
 comparing a pretrained remote sensing foundation model (CROMA) with self-supervised pretraining.
 
-Team: Emanuel ([emanuel-gf](https://github.com/emanuel-gf)), Bruna ([brunacandido](https://github.com/brunacandido)), Angelica ([Angelicarjs]https://github.com/Angelicarjs)) and Joshua Owen
+Team: Emanuel ([emanuel-gf](https://github.com/emanuel-gf)), Bruna ([brunacandido](https://github.com/brunacandido)), Angelica ([Angelicarjs](https://github.com/Angelicarjs)) and Joshua Owen
 Mangotang. 
 
 ## Task
