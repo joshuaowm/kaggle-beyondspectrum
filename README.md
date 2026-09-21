@@ -3,8 +3,8 @@
 Team notebooks for a Kaggle competition on crop disease prediction from Sentinel-2 imagery,
 comparing a pretrained remote sensing foundation model (CROMA) with self-supervised pretraining.
 
-Team: Emanuel ([emanuel-gf](https://github.com/emanuel-gf)), Bruna Cândido and Joshua Owen
-Mangotang. Forked from [emanuel-gf/kaggle-beyondspectrum](https://github.com/emanuel-gf/kaggle-beyondspectrum).
+Team: Emanuel ([emanuel-gf](https://github.com/emanuel-gf)), Bruna ([brunacandido](https://github.com/brunacandido)), Angelica ([Angelicarjs]https://github.com/Angelicarjs)) and Joshua Owen
+Mangotang. 
 
 ## Task
 
@@ -15,12 +15,12 @@ self-supervised approaches use.
 
 ## Approaches
 
-| Approach | Notebooks | Author | Accuracy |
-| --- | --- | --- | ---: |
-| CROMA encoder + MLP classifier with focal loss, plus class weights and data augmentation | `notebooks/croma/` | Emanuel, Bruna | about 64% (team baseline) |
-| Self-supervised pretraining from scratch, then fine-tuning | `notebooks/ssl/ssl_from_scratch.ipynb` | Emanuel | 31.9% (test) |
-| Spectral mixer + DINO, fine-tuned | `notebooks/ssl/ssl_spectral_mixer_dino_v1.ipynb` | Joshua | 49.4% (best validation) |
-| Same, with a class-balanced sampler and augmentation | `notebooks/ssl/ssl_spectral_mixer_dino_v2.ipynb` | Joshua | **66.1%** (best validation) |
+| Approach | Notebooks | Accuracy |
+| --- | --- | ---: |
+| CROMA encoder + MLP classifier with focal loss, plus class weights and data augmentation | `notebooks/croma/` | about 64% (team baseline) |
+| Self-supervised pretraining from scratch, then fine-tuning | `notebooks/ssl/ssl_from_scratch.ipynb` | 31.9% (test) |
+| Spectral mixer + DINO, fine-tuned | `notebooks/ssl/ssl_spectral_mixer_dino_v1.ipynb` | 49.4% (best validation) |
+| Same, with a class-balanced sampler and augmentation | `notebooks/ssl/ssl_spectral_mixer_dino_v2.ipynb` | **66.1%** (best validation) |
 
 ### Spectral mixer + DINO
 
